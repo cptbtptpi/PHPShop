@@ -1,0 +1,69 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">货品列表</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-hover">
+                   <thead>
+                   <tr>
+                       <th>编号</th>
+                       <foreach name="attr_name" item="v">
+                           <th>{$v}</th>
+                       </foreach>
+                       <th>货号</th>
+                       <th>库存</th>
+                       <th>操作</th>
+                   </tr>
+                   </thead>
+                    <tbody>
+                    <foreach name="oldData" item="v">
+                        <tr>
+                            <td>{$v['gl_id']}</td>
+                            <foreach name="v['goods_attr_name']" item="vv">
+                                <td>{$vv}</td>
+                            </foreach>
+                            <td>{$v['goods_number']}</td>
+                            <td>{$v['inventory']}</td>
+                            <td>
+                                <a href="{:u('edit',['gl_id'=>$v['gl_id'],'g_id'=>I('get.g_id')])}" class="btn btn-info">编辑</a>
+                                <a href="javascript:;" onclick="del({$v['gl_id']},{$v['g_id']})" class="btn btn-danger">删除</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+                <!--展示分页-->
+                <div class="col-sm-12 text-right text-center-xs">
+                    <ul class="pagination pagination-sm m-t-none m-b-none">
+                        {$page}
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="btn-group">
+    <a href="{:u('admin/GoodsList/add',['g_id'=>I('get.g_id')])}" class="btn btn-success">货品添加</a>
+</div>
+<script>
+    function del(gl_id,g_id) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href = "{:u('GoodsList/del')}" + '?gl_id=' + gl_id + '&g_id=' + g_id;
+                }
+            }
+
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>

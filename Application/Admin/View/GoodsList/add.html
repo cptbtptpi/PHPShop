@@ -1,0 +1,36 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">货品管理/货品添加</h2>
+</div>
+<form class="form-horizontal" id="form" action="" method="post">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <foreach name="oldData" item="v">
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">{$v['attr_name']}</label>
+                <div class="col-sm-3">
+                    <select class="form-control" name="combine[]">
+                        <foreach name="v['select']" item="vv">
+                            <option value="{$vv['ga_id']}">{$vv['goods_attr_name']}</option>
+                        </foreach>
+                    </select>
+                </div>
+            </div>
+            </foreach>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">库存</label>
+                <div class="col-sm-9">
+                    <input type="number" name="inventory" value="" required value="0" min="0">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">货号</label>
+                <div class="col-sm-9">
+                    <input type="text" name="goods_number" value="" placeholder="请输入货号" required>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary col-sm-4 col-sm-offset-1" type="submit">确定提交</button>
+</form>
+</div>

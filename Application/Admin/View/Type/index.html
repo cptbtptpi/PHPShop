@@ -1,0 +1,44 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">类型管理</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>类型编号</th>
+                        <th>类型名称</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="list" item="v">
+                        <tr>
+                            <td>{$v['t_id']}</td>
+                            <td>{$v['t_name']}</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a href="{:u('admin/typeAttr/index',['t_id'=>$v['t_id']])}" class="btn btn-primary">类型属性</a>
+                                    <a href="{:u('admin/type/save',['t_id'=>$v['t_id']])}" class="btn btn-info">编辑</a>
+                                    <a href="{:u('admin/type/del',['t_id'=>$v['t_id']])}" class="btn btn-danger">删除</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<div class="btn-group">
+    <a href="{:u('admin/type/save')}" class="btn btn-success">类型添加</a>
+</div>

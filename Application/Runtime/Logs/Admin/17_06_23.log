@@ -1,0 +1,944 @@
+[ 2017-06-23T10:53:48+08:00 ] ::1 /wancezy/JDshop/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-23T10:53:49+08:00 ] ::1 /wancezy/JDshop/index.php/admin/user/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:54:00+08:00 ] ::1 /wancezy/JDshop/index.php/admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `jn_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jn_admin` WHERE ( a_name = 'admin' and a_password = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-23T10:54:01+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:54:14+08:00 ] ::1 /wancezy/JDshop/index.php/admin/website/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_website` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jn_website`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-23T10:54:16+08:00 ] ::1 /wancezy/JDshop/index.php/admin/website/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jn_website` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jn_website`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:54:23+08:00 ] ::1 /wancezy/JDshop/index.php/admin/type/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jn_type` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_type` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_type` ORDER BY t_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:54:37+08:00 ] ::1 /wancezy/JDshop/index.php/admin/typeAttr/index/t_id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_type_attr` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id = '11' ) ORDER BY ta_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:54:50+08:00 ] ::1 /wancezy/JDshop/index.php/admin/typeAttr/edit/ta_id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( ta_id='22' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-23T10:55:00+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: page F:\WWW\wancezy\JDshop\Application\Runtime\Cache\Admin\1537dc1a60bf3f0c8cba043c2989173b.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:55:47+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/addSon/c_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-23T10:56:04+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/addSon/c_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-23T10:56:10+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/addSon/c_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Declaration of Admin\Model\CateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\WWW\wancezy\JDshop\Application\Admin\Model\CateModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0090s ]
+SQL: INSERT INTO `jn_category` (`c_name`,`p_id`,`c_sort`) VALUES ('魅族','6','1') [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:56:12+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Cate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page F:\WWW\wancezy\JDshop\Application\Runtime\Cache\Admin\1537dc1a60bf3f0c8cba043c2989173b.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:56:20+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/edit/c_id/195.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id=195 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id!=195 )  [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:56:39+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/edit/c_id/195.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id=195 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id!=195 )  [ RunTime:0.0020s ]
+NOTIC: [2] Declaration of Admin\Model\CateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\WWW\wancezy\JDshop\Application\Admin\Model\CateModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0100s ]
+SQL: UPDATE `jn_category` SET `c_name`='锤子',`p_id`='4',`c_sort`='1' WHERE ( c_id=195 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:56:41+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Cate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page F:\WWW\wancezy\JDshop\Application\Runtime\Cache\Admin\1537dc1a60bf3f0c8cba043c2989173b.php 第 368 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:56:57+08:00 ] ::1 /wancezy/JDshop/index.php/admin/cate/del.html?c_id=195
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Declaration of Admin\Model\CateModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) F:\WWW\wancezy\JDshop\Application\Admin\Model\CateModel.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jn_category` WHERE ( c_id=195 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_category` WHERE ( p_id=195 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cate F:\WWW\wancezy\JDshop\Application\Admin\Model\CateModel.class.php 第 92 行.
+ERR: Call to a member function where() on null
+
+[ 2017-06-23T10:57:12+08:00 ] ::1 /wancezy/JDshop/index.php/admin/brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_brand` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_brand` ORDER BY b_id LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:57:21+08:00 ] ::1 /wancezy/JDshop/index.php/admin/brand/save/b_id/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jn_brand` WHERE ( b_id=41 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T10:57:29+08:00 ] ::1 /wancezy/JDshop/index.php/admin/goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_goods` ORDER BY launch_time desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-23T10:57:47+08:00 ] ::1 /wancezy/JDshop/index.php/admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-23T10:58:01+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/getAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-23T10:58:28+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/getAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-06-23T10:58:41+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/getAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-06-23T11:00:19+08:00 ] ::1 /wancezy/JDshop/index.php/admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0170s ]
+SQL: SELECT `jn_type_t_id` FROM `jn_category` WHERE ( c_id=89 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods` (`goods_name`,`goods_number`,`jn_category_c_id`,`jn_brand_b_id`,`goods_unit`,`market_price`,`mall_price`,`click_rate`,`total_inventory`,`pic`,`jn_type_t_id`,`launch_time`,`jn_admin_a_id`) VALUES ('小米T恤1','123','89','43','件','132','123','123','312','/wancezy/JDshop/Uploads/2017-06-23/594c842a88a3d.jpg','1','1498186819','1') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_goods_detail` [ RunTime:0.0100s ]
+SQL: INSERT INTO `jn_goods_detail` (`small_pic`,`middle_pic`,`big_pic`,`goods_detail`,`service`,`jn_goods_g_id`) VALUES ('/wancezy/JDshop/Uploads/2017-06-23/small_594c8436a271a.jpg|/wancezy/JDshop/Uploads/2017-06-23/small_594c8437c714b.jpg|/wancezy/JDshop/Uploads/2017-06-23/small_594c8438ea7f5.jpg|/wancezy/JDshop/Uploads/2017-06-23/small_594c843a2d8cb.jpg','/wancezy/JDshop/Uploads/2017-06-23/middle_594c8436a271a.jpg|/wancezy/JDshop/Uploads/2017-06-23/middle_594c8437c714b.jpg|/wancezy/JDshop/Uploads/2017-06-23/middle_594c8438ea7f5.jpg|/wancezy/JDshop/Uploads/2017-06-23/middle_594c843a2d8cb.jpg','/wancezy/JDshop/Uploads/2017-06-23/big_594c8436a271a.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8437c714b.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8438ea7f5.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c843a2d8cb.jpg','&lt;p&gt;123&lt;/p&gt;','&lt;p&gt;123&lt;/p&gt;','90') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.0120s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('短袖','0','1','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('修身型','0','2','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('短款','0','3','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('圆领','0','4','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('真丝','0','5','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('青年','0','6','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('红色','123','7','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('白色','123','7','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('M','123','8','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('S','123','8','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('L','123','8','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('XL','123','8','90') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-06-23T11:00:21+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_goods` ORDER BY launch_time desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T11:00:29+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/edit/g_id/90.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0360s ]
+SQL: SELECT * FROM jn_goods g INNER JOIN jn_goods_detail gd ON g.g_id=gd.jn_goods_g_id  WHERE ( g.g_id=90 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=1 and attr_type=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.0100s ]
+SQL: SELECT `goods_attr_name` FROM `jn_goods_attr` WHERE ( jn_goods_g_id=90 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM jn_type_attr ta INNER JOIN jn_goods_attr ga on ta.ta_id=ga.jn_type_attr_ta_id  WHERE ( attr_type=1 and jn_goods_g_id=90 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T11:00:59+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/edit/g_id/90.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: validate F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0100s ]
+SQL: SELECT `jn_type_t_id` FROM `jn_category` WHERE ( c_id=89 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `jn_goods` SET `goods_name`='小米T恤1',`goods_number`='123',`goods_unit`='件',`market_price`='132.00',`mall_price`='123.00',`total_inventory`='312',`pic`='/wancezy/JDshop/Uploads/2017-06-23/594c842a88a3d.jpg',`click_rate`='123',`launch_time`='1498186859',`jn_category_c_id`='89',`jn_brand_b_id`='43',`jn_type_t_id`='1' WHERE ( g_id=90 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_goods_detail` [ RunTime:0.0110s ]
+SQL: UPDATE `jn_goods_detail` SET `small_pic`='/wancezy/JDshop/Uploads/2017-06-23/big_594c8436a271a.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8437c714b.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8438ea7f5.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c843a2d8cb.jpg',`middle_pic`='/wancezy/JDshop/Uploads/2017-06-23/big_594c8436a271a.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8437c714b.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8438ea7f5.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c843a2d8cb.jpg',`big_pic`='/wancezy/JDshop/Uploads/2017-06-23/big_594c8436a271a.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8437c714b.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c8438ea7f5.jpg|/wancezy/JDshop/Uploads/2017-06-23/big_594c843a2d8cb.jpg',`goods_detail`='&lt;p&gt;123&lt;/p&gt;',`service`='&lt;p&gt;123&lt;/p&gt;' WHERE ( jn_goods_g_id=90 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.0100s ]
+SQL: DELETE FROM `jn_goods_attr` WHERE ( jn_goods_g_id=90 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('长袖','0','1','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('宽松型','0','2','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('短款','0','3','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('圆领','0','4','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('真丝','0','5','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('青年','0','6','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('M','123.00','8','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('XXL','123.00','8','90') [ RunTime:0.0000s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('白色','123.00','7','90') [ RunTime:0.0010s ]
+SQL: INSERT INTO `jn_goods_attr` (`goods_attr_name`,`added`,`jn_type_attr_ta_id`,`jn_goods_g_id`) VALUES ('红色','123.00','7','90') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T11:01:01+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jn_goods` ORDER BY launch_time desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-23T11:01:04+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/edit/g_id/90.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0170s ]
+SQL: SELECT * FROM jn_goods g INNER JOIN jn_goods_detail gd ON g.g_id=gd.jn_goods_g_id  WHERE ( g.g_id=90 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=1 and attr_type=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.0230s ]
+SQL: SELECT `goods_attr_name` FROM `jn_goods_attr` WHERE ( jn_goods_g_id=90 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM jn_type_attr ta INNER JOIN jn_goods_attr ga on ta.ta_id=ga.jn_type_attr_ta_id  WHERE ( attr_type=1 and jn_goods_g_id=90 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-23T11:01:10+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/edit/g_id/90.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM jn_goods g INNER JOIN jn_goods_detail gd ON g.g_id=gd.jn_goods_g_id  WHERE ( g.g_id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=1 and attr_type=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.0090s ]
+SQL: SELECT `goods_attr_name` FROM `jn_goods_attr` WHERE ( jn_goods_g_id=90 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM jn_type_attr ta INNER JOIN jn_goods_attr ga on ta.ta_id=ga.jn_type_attr_ta_id  WHERE ( attr_type=1 and jn_goods_g_id=90 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-23T11:01:18+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/Goods/edit/g_id/90.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `jn_goods` [ RunTime:0.0190s ]
+SQL: SELECT * FROM jn_goods g INNER JOIN jn_goods_detail gd ON g.g_id=gd.jn_goods_g_id  WHERE ( g.g_id=90 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `jn_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jn_brand` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jn_brand`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_type_attr` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jn_type_attr` WHERE ( jn_type_t_id=1 and attr_type=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jn_goods_attr` [ RunTime:0.0110s ]
+SQL: SELECT `goods_attr_name` FROM `jn_goods_attr` WHERE ( jn_goods_g_id=90 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM jn_type_attr ta INNER JOIN jn_goods_attr ga on ta.ta_id=ga.jn_type_attr_ta_id  WHERE ( attr_type=1 and jn_goods_g_id=90 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T11:01:40+08:00 ] ::1 /wancezy/JDshop/index.php/admin/ForeUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jn_user` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `jn_user`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-23T11:02:36+08:00 ] ::1 /wancezy/JDshop/index.php/admin/ForeUser/del.html?u_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `jn_user` [ RunTime:0.0190s ]
+SQL: DELETE FROM `jn_user` WHERE ( u_id=3 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-23T11:02:38+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/ForeUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `jn_user` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `jn_user`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_user` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T11:02:45+08:00 ] ::1 /wancezy/JDshop/index.php/admin/OrderManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderManageController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\WWW\wancezy\JDshop\Application\Admin\Controller\OrderManageController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `jn_indent` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_indent` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jn_indent`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-23T11:02:57+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/OrderManage/sendGoods/i_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderManageController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\WWW\wancezy\JDshop\Application\Admin\Controller\OrderManageController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `jn_indent` [ RunTime:0.0160s ]
+SQL: UPDATE `jn_indent` SET `order_status`='1' WHERE ( i_id=8 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-23T11:02:59+08:00 ] ::1 /wancezy/JDshop/index.php/Admin/OrderManage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderManageController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\WWW\wancezy\JDshop\Application\Admin\Controller\OrderManageController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `jn_indent` [ RunTime:0.0380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jn_indent` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jn_indent`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-23T11:03:11+08:00 ] ::1 /wancezy/JDshop/index.php/admin/OrderMange/del.html?i_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:OrderMange
+

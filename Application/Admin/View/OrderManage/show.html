@@ -1,0 +1,69 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">订单管理/订单详情</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>商品编号</th>
+                        <th>商品名</th>
+                        <th>商品图片</th>
+                        <th>商品数量</th>
+                        <th>价格</th>
+                        <!--<th>操作</th>-->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="orderListData" item="v">
+                        <tr>
+                            <td>{$v['ol_id']}</td>
+                            <td>{$v['name']}</td>
+                            <td><img width="50" height="50" src="{$v['pic']}" alt=""></td>
+                            <td>{$v['amount']}</td>
+                            <td>{$v['price']}</td>
+                            <!--<td><?php echo date('Y-m-d H:i:s',$v['gener_time']); ?></td>-->
+                            <!--<td><if condition="$v['order_payment'] eq 0">未付款<else />已付款</if></td>-->
+                            <!--<td><if condition="$v['order_status'] eq 0">未发货<elseif condition="$v['order_status'] eq 1"/>已发货<else />已收货</if></td>-->
+                            <!--<td>-->
+                                <!--<div class="btn-group">-->
+                                    <!--<a href="{:u('admin/OrderMange/show',['i_id'=>$v['i_id']])}" class="btn btn-info">查看</a>-->
+                                    <!--<if condition="$v['order_payment'] eq 0"><a href="javascript:;" onclick="del({$v['i_id']})" class="btn btn-danger">删除</a><else /><a href="" class="btn btn-primary">发货</a></if>-->
+                                <!--</div>-->
+                            <!--</td>-->
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<script>
+    function del(i_id) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href = "{:u('admin/OrderMange/del')}" + '?i_id=' + i_id;
+                }
+            }
+
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>
+

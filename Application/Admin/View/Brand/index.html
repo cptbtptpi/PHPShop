@@ -1,0 +1,71 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">品牌管理/品牌列表</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>品牌编号</th>
+                        <th>品牌名称</th>
+                        <th>所属层数</th>
+                        <th>品牌LOGO</th>
+                        <th>是否热门</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="list" item="v">
+                        <tr>
+                            <td>{$v['b_id']}</td>
+                            <td>{$v['b_name']}</td>
+                            <td>{$v['b_ceng']}</td>
+                            <td style="max-width: 100px;"><img src="{$v['b_logo']}" alt="" style="height: 30px;"></td>
+                            <td>
+                                <if condition="$v['b_hot'] eq 1 "> 热门
+                                    <else /> 否
+                                </if>
+                            </td>
+
+                            <td>
+                                <div class="btn-group">
+                                    <a href="{:u('admin/brand/save',['b_id'=>$v['b_id']])}" class="btn btn-info">编辑</a>
+                                    <a href="javascript:;" onclick="del({$v['b_id']})" class="btn btn-danger">删除</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<script>
+    function del(b_id) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href = "{:u('admin/brand/del')}" + '?b_id=' + b_id;
+                }
+            }
+
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>
+

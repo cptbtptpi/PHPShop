@@ -1,0 +1,70 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">用户管理/用户列表</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>用户编号</th>
+                        <th>用户名</th>
+                        <th>手机号码</th>
+                        <th>邮箱</th>
+                        <th>账户余额</th>
+                        <th>最近登录时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="data" item="v">
+                        <tr>
+                            <td>{$v['u_id']}</td>
+                            <td>{$v['username']}</td>
+                            <td>{$v['mobilephone']}</td>
+                            <td>{$v['email']}</td>
+                            <td>{$v['account_balance']}</td>
+                            <td><?php echo date('Y-m-d H:i:s',$v['login_time']); ?></td>
+                            <td>
+                                <div class="btn-group">
+                                    <a href="{:u('admin/ForeUser/edit',['u_id'=>$v['u_id']])}" class="btn btn-info">编辑</a>
+                                    <?php if (time() - $v['login_time'] > 60*60*24*30*6) { ?>
+                                    <a href="javascript:;" onclick="del({$v['u_id']})" class="btn btn-danger">删除</a>
+                                    <?php } ?>
+                                </div>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<script>
+    function del(u_id) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href = "{:u('admin/ForeUser/del')}" + '?u_id=' + u_id;
+                }
+            }
+
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>
+

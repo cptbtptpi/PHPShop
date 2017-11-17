@@ -1,0 +1,83 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">商品列表</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table id="MyStretchGrid" class="table table-striped datagrid m-b-sm">
+                    <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>商品名称</th>
+                        <th>价格</th>
+                        <th>库存</th>
+                        <th>点击数</th>
+                        <th>添加时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <style>
+                        table tr td li {
+                            list-style: none;
+                        }
+                    </style>
+                    <foreach name="list" item="v">
+                        <tr>
+                            <td>{$v['g_id']}</td>
+                            <td>{$v['goods_name']}</td>
+                            <td>
+                                <ul style="padding-left: 0;">
+                                    <li>市场价<del>{$v['market_price']}</del></li>
+                                    <li style="color: #ff0000;">商城价<span>{$v['mall_price']}</span></li>
+                                </ul>
+                            </td>
+                            <td>{$v['total_inventory']}</td>
+                            <td>{$v['click_rate']}</td>
+
+                            <td>{$v['launch_time']|date="Y-m-d H:i",###}</td>
+                            <td>
+                                <a href="{:u('GoodsList/index',['g_id'=>$v['g_id']])}" class="btn btn-primary">货品列表</a>
+                                <a href="{:u('edit',['g_id'=>$v['g_id']])}" class="btn btn-info">编辑</a>
+                                <a href="javascript:;" onclick="del({$v['g_id']})" class="btn btn-danger">删除</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+                <!--展示分页-->
+                <div class="col-sm-12 text-right text-center-xs">
+                    <ul class="pagination pagination-sm m-t-none m-b-none">
+                        {$page}
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>
+<script>
+    function del(g_id) {
+        var obj = util.modal({
+            title:'确认删除吗?',//标题
+            content:'',//内容
+            footer:'<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button><button type="button" class="btn btn-danger confirm" data-dismiss="modal">删除</button>',//底部
+            width:600,//宽度
+            events:{
+                confirm:function(){
+                    //哪个元素上有.confirm类，被点击就执行这个回调
+                    location.href = "{:u('del')}" + '?g_id=' + g_id;
+                }
+            }
+
+        });
+        //显示模态框
+        obj.modal('show');
+    }
+</script>
+
+
+
+

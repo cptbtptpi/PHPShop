@@ -1,0 +1,648 @@
+[ 2017-06-20T08:59:34+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.1040s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','16-0.jpg','59487374d5cf7.jpg','2017-06-20/','jpg','1497920372','58789','','') [ RunTime:0.0450s ]
+
+[ 2017-06-20T09:00:01+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0180s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','16-0.jpg','594873900b4f1.jpg','2017-06-20/','jpg','1497920400','58789','','') [ RunTime:0.0590s ]
+
+[ 2017-06-20T09:00:02+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0410s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','16-3.jpg','5948739145300.jpg','2017-06-20/','jpg','1497920401','66373','','') [ RunTime:0.0290s ]
+
+[ 2017-06-20T09:00:03+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0240s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','16-1.jpg','594873925e597.jpg','2017-06-20/','jpg','1497920402','82719','','') [ RunTime:0.0330s ]
+
+[ 2017-06-20T09:00:04+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0290s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','16-2.jpg','5948739384f09.jpg','2017-06-20/','jpg','1497920403','99580','','') [ RunTime:0.1070s ]
+
+[ 2017-06-20T09:00:05+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0300s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','16-4.jpg','59487394bbe37.jpg','2017-06-20/','jpg','1497920404','28616','','') [ RunTime:0.0370s ]
+
+[ 2017-06-20T09:03:14+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0280s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','17-0.jpg','5948745109651.jpg','2017-06-20/','jpg','1497920593','55531','','') [ RunTime:0.0400s ]
+
+[ 2017-06-20T09:03:50+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0150s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','17-0.jpg','594874751fa0a.jpg','2017-06-20/','jpg','1497920629','55531','','') [ RunTime:0.1620s ]
+
+[ 2017-06-20T09:03:51+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0640s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','17-1.jpg','5948747663073.jpg','2017-06-20/','jpg','1497920630','44304','','') [ RunTime:0.0670s ]
+
+[ 2017-06-20T09:03:52+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0280s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','17-3.jpg','5948747791acf.jpg','2017-06-20/','jpg','1497920631','63722','','') [ RunTime:0.0720s ]
+
+[ 2017-06-20T09:03:53+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0290s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','17-2.jpg','59487478bab52.jpg','2017-06-20/','jpg','1497920632','28787','','') [ RunTime:0.0420s ]
+
+[ 2017-06-20T09:03:55+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0290s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','17-4.jpg','59487479dda2b.jpg','2017-06-20/','jpg','1497920633','37959','','') [ RunTime:0.0570s ]
+
+[ 2017-06-20T10:31:47+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0100s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','18-0.jpg','594889122ef78.jpg','2017-06-20/','jpg','1497925906','98041','','') [ RunTime:0.0390s ]
+
+[ 2017-06-20T10:32:19+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0100s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','18-0.jpg','594889322816d.jpg','2017-06-20/','jpg','1497925938','98041','','') [ RunTime:0.0870s ]
+
+[ 2017-06-20T10:32:20+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0250s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','18-3.jpg','5948893371598.jpg','2017-06-20/','jpg','1497925939','170879','','') [ RunTime:0.0320s ]
+
+[ 2017-06-20T10:32:21+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0120s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','18-1.jpg','5948893489c76.jpg','2017-06-20/','jpg','1497925940','71643','','') [ RunTime:0.0460s ]
+
+[ 2017-06-20T10:32:22+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0070s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','18-4.jpg','59488935afe19.jpg','2017-06-20/','jpg','1497925941','78066','','') [ RunTime:0.0680s ]
+
+[ 2017-06-20T10:33:33+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0390s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','18-2.jpg','5948897cd6b77.jpg','2017-06-20/','jpg','1497926012','108603','','') [ RunTime:0.0320s ]
+
+[ 2017-06-20T10:43:57+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0160s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','19-0.jpg','59488bec5c51d.jpg','2017-06-20/','jpg','1497926636','70260','','') [ RunTime:0.0420s ]
+
+[ 2017-06-20T10:44:24+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0150s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','19-0.jpg','59488c0780d4e.jpg','2017-06-20/','jpg','1497926663','70260','','') [ RunTime:0.0440s ]
+
+[ 2017-06-20T10:44:25+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0110s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','19-3.jpg','59488c08b0f1a.jpg','2017-06-20/','jpg','1497926664','72920','','') [ RunTime:0.0310s ]
+
+[ 2017-06-20T10:44:26+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0110s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','19-1.jpg','59488c09c7aa1.jpg','2017-06-20/','jpg','1497926665','60561','','') [ RunTime:0.0390s ]
+
+[ 2017-06-20T10:44:28+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0110s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','19-2.jpg','59488c0aedc43.jpg','2017-06-20/','jpg','1497926667','57493','','') [ RunTime:0.1850s ]
+
+[ 2017-06-20T10:44:29+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0150s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','19-4.jpg','59488c0c3dc24.jpg','2017-06-20/','jpg','1497926668','81058','','') [ RunTime:0.1000s ]
+
+[ 2017-06-20T14:40:01+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0810s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','20-0.jpg','5948c3400d7d9.jpg','2017-06-20/','jpg','1497940800','108330','','') [ RunTime:0.0860s ]
+
+[ 2017-06-20T14:40:59+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','20-0.jpg','5948c37a0023b.jpg','2017-06-20/','jpg','1497940858','108330','','') [ RunTime:0.0920s ]
+
+[ 2017-06-20T14:41:00+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0230s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','20-3.jpg','5948c37b3afea.jpg','2017-06-20/','jpg','1497940859','111358','','') [ RunTime:0.0420s ]
+
+[ 2017-06-20T14:41:01+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','20-1.jpg','5948c37c6406d.jpg','2017-06-20/','jpg','1497940860','111890','','') [ RunTime:0.0580s ]
+
+[ 2017-06-20T14:41:02+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','20-2.jpg','5948c37d853ee.jpg','2017-06-20/','jpg','1497940861','113863','','') [ RunTime:0.1300s ]
+
+[ 2017-06-20T14:41:04+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0760s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','20-4.jpg','5948c37eb655a.jpg','2017-06-20/','jpg','1497940862','83614','','') [ RunTime:0.1440s ]
+
+[ 2017-06-20T14:46:33+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0160s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21-0.jpg','5948c4c88dc64.jpg','2017-06-20/','jpg','1497941192','75948','','') [ RunTime:0.0620s ]
+
+[ 2017-06-20T14:46:55+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0110s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21-0.jpg','5948c4dea6bdc.jpg','2017-06-20/','jpg','1497941214','75948','','') [ RunTime:0.0350s ]
+
+[ 2017-06-20T14:46:56+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0110s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21-1.jpg','5948c4dfbc3da.jpg','2017-06-20/','jpg','1497941215','89066','','') [ RunTime:0.0710s ]
+
+[ 2017-06-20T14:46:58+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0290s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21-2.jpg','5948c4e0de313.jpg','2017-06-20/','jpg','1497941216','101609','','') [ RunTime:0.0350s ]
+
+[ 2017-06-20T14:46:59+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0140s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21-4jpg.jpg','5948c4e206633.jpg','2017-06-20/','jpg','1497941218','186107','','') [ RunTime:0.0600s ]
+
+[ 2017-06-20T14:47:00+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0110s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','21-3.jpg','5948c4e31f0fa.jpg','2017-06-20/','jpg','1497941219','91090','','') [ RunTime:0.0630s ]
+
+[ 2017-06-20T14:53:28+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22-0.jpg','5948c667335f7.jpg','2017-06-20/','jpg','1497941607','105221','','') [ RunTime:0.0450s ]
+
+[ 2017-06-20T14:53:52+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0170s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22-0.jpg','5948c67f6312f.jpg','2017-06-20/','jpg','1497941631','105221','','') [ RunTime:0.0460s ]
+
+[ 2017-06-20T14:53:53+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0520s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22-3.jpg','5948c6808f093.jpg','2017-06-20/','jpg','1497941632','39410','','') [ RunTime:0.0370s ]
+
+[ 2017-06-20T14:53:54+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22-1.jpg','5948c681aae22.jpg','2017-06-20/','jpg','1497941633','80777','','') [ RunTime:0.0850s ]
+
+[ 2017-06-20T14:53:56+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0130s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22-2.jpg','5948c682cec9c.jpg','2017-06-20/','jpg','1497941634','39410','','') [ RunTime:0.0970s ]
+
+[ 2017-06-20T14:53:57+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0140s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','22-4.jpg','5948c68410602.jpg','2017-06-20/','jpg','1497941636','112913','','') [ RunTime:0.1040s ]
+
+[ 2017-06-20T14:58:12+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.4870s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23-0.jpg','5948c782a81fd.jpg','2017-06-20/','jpg','1497941890','144884','','') [ RunTime:0.1100s ]
+
+[ 2017-06-20T14:58:39+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0230s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23-0.jpg','5948c79dec21e.jpg','2017-06-20/','jpg','1497941917','144884','','') [ RunTime:0.1360s ]
+
+[ 2017-06-20T14:58:40+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23-1.jpg','5948c79f252c9.jpg','2017-06-20/','jpg','1497941919','121387','','') [ RunTime:0.1050s ]
+
+[ 2017-06-20T14:58:41+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0090s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23-3.jpg','5948c7a0475eb.jpg','2017-06-20/','jpg','1497941920','189123','','') [ RunTime:0.0900s ]
+
+[ 2017-06-20T14:58:42+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0150s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23-2.jpg','5948c7a17354e.jpg','2017-06-20/','jpg','1497941921','196149','','') [ RunTime:0.0940s ]
+
+[ 2017-06-20T14:58:43+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0060s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','23-4.jpg','5948c7a29dd41.jpg','2017-06-20/','jpg','1497941922','57304','','') [ RunTime:0.1140s ]
+
+[ 2017-06-20T15:03:31+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0850s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24-0.jpg','5948c8c1f035c.jpg','2017-06-20/','jpg','1497942209','97776','','') [ RunTime:0.1310s ]
+
+[ 2017-06-20T15:03:55+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0290s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24-0.jpg','5948c8d9e02fd.jpg','2017-06-20/','jpg','1497942233','97776','','') [ RunTime:0.0630s ]
+
+[ 2017-06-20T15:03:56+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24-3.jpg','5948c8db2281b.jpg','2017-06-20/','jpg','1497942235','113830','','') [ RunTime:0.0310s ]
+
+[ 2017-06-20T15:03:57+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24-1.jpg','5948c8dc4a12d.jpg','2017-06-20/','jpg','1497942236','66075','','') [ RunTime:0.0360s ]
+
+[ 2017-06-20T15:03:58+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0080s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24-2.jpg','5948c8dd6e777.jpg','2017-06-20/','jpg','1497942237','147611','','') [ RunTime:0.0400s ]
+
+[ 2017-06-20T15:03:59+08:00 ] ::1 /wancezy/JDshop/index.php/system/component/uploader.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behaviors\appBeginBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\WWW\wancezy\JDshop\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `jn_core_attachment` [ RunTime:0.0100s ]
+SQL: INSERT INTO `jn_core_attachment` (`uid`,`name`,`filename`,`path`,`extension`,`createtime`,`size`,`data`,`hash`) VALUES ('0','24-4.jpg','5948c8de889ae.jpg','2017-06-20/','jpg','1497942238','45719','','') [ RunTime:0.0490s ]
+

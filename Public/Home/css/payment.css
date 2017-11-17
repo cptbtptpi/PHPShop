@@ -1,0 +1,559 @@
+/*头部*/
+.shortcut {
+    width: 100%;
+    height: 50px;
+}
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+.shortcut .w {
+    position: relative;
+    height: 50px;
+}
+.shortcut .s-logo {
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.shortcut .s-right {
+    float: right;
+    padding-top: 20px;
+}
+.shortcut .s-right .s-item {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 11px 0 12px;
+    float: left;
+}
+.shortcut a {
+    color: #666;
+}
+.shortcut .s-right .s-div {
+    float: left;
+    color: #ddd;
+}
+
+/*主要部分*/
+/*二维码,订单详情*/
+.main, .promotion {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.order {
+    position: relative;
+}
+.clearfix {
+    display: block;
+}
+.order .o-qrcode {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 90px;
+    height: 90px;
+}
+.order .o-qrcode .oq-img {
+    width: 88px;
+    height: 88px;
+    padding: 1px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 16;
+    cursor: default;
+    box-shadow: 0 0 20px rgba(0,0,0,.12);
+}
+a {
+    color: #2ea7e7;
+}
+.order .o-qrcode .oq-img img {
+    width: 88px;
+    height: 88px;
+}
+.order .o-left {
+    float: left;
+    width: 640px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 102px;
+}
+.order .o-title {
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.order .o-tips {
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+}
+.font-red {
+    color: #ff5d5b;
+}
+.order .o-right {
+    float: right;
+    width: 190px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.order .o-price {
+    text-align: right;
+    line-height: 26px;
+}
+.order .o-price em {
+    vertical-align: bottom;
+}
+.order .o-price strong {
+    font-size: 18px;
+    vertical-align: bottom;
+    color: #ff5d5b;
+    margin: 0 3px;
+}
+.order .o-price em {
+    vertical-align: bottom;
+}
+.order .o-detail {
+    text-align: right;
+    line-height: 20px;
+    color: #2ea7e7;
+}
+.order .o-detail a {
+    display: inline-block;
+    padding-right: 15px;
+    position: relative;
+}
+.order .o-detail a i {
+    right: 0;
+    top: 3px;
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url("../images/payment/elements.png") -76px -75px no-repeat;
+}
+.order .o-list {
+    display: none;
+    padding: 12px 0 25px;
+    margin: 0 30px;
+    clear: both;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+.order .o-list .o-list-info {
+    line-height: 24px;
+}
+
+/*支付*/
+.payment {
+    background-color: #fff;
+    padding: 12px 30px 0;
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.12);
+    box-shadow: 0 0 20px rgba(0,0,0,.12);
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.pay-load {
+    position: relative;
+    min-height: 480px;
+}
+.jp-logo-wrap {
+    position: relative;
+}
+.jp-logo-wrap .jp-logo {
+    width: 132px;
+    height: 35px;
+    position: absolute;
+    left: -35px;
+    top: 0;
+    background: url("../images/payment/jdpay-icon.png") no-repeat;
+}
+.jp-notice {
+    height: 32px;
+    line-height: 32px;
+    margin-left: 118px;
+    margin-bottom: 15px;
+    color: #4b5b78;
+}
+.jp-notice .jp-tips {
+    float: left;
+    color: #999;
+    filter: alpha(Opacity=80);
+    opacity: .8;
+}
+
+.pay-load .animate-enter, .pay-load .animate-leave {
+    display: block;
+    opacity: 0;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.pay-load .animate-enter-active, .pay-load .animate-leave {
+    opacity: 1;
+}
+.paybox {
+    border-bottom: 1px solid #ddd;
+    padding: 0 2px 1px;
+}
+.paybox .p-wrap {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paybox .p-border {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -2px;
+    top: -2px;
+    border: 2px solid #b0c2e1;
+}
+.paybox .p-key {
+    float: left;
+    padding-top: 5px;
+    padding-left: 18px;
+}
+.ui-checkbox-wrap {
+    cursor: pointer;
+}
+.ui-checkbox-wrap.ui-check-disable {
+    cursor: default;
+    filter: alpha(Opacity=40);
+    opacity: .4;
+}
+.paybox .p-key .p-k-check {
+    display: inline-block;
+    line-height: 22px;
+    cursor: pointer;
+}
+.paybox .p-key .p-k-check.ui-check-disable {
+    cursor: default;
+}
+.ui-checkbox, .ui-checkbox-L {
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    vertical-align: middle;
+}
+.paybox .p-key .p-k-check .ui-checkbox-L {
+    vertical-align: top;
+}
+.ui-checkbox em, .ui-checkbox-L em {
+    display: block;
+    width: 24px;
+    height: 22px;
+    background-image: url(../images/payment/elements.png);
+    background-repeat: no-repeat;
+    background-position: -9999px -9999px;
+}
+.ui-checkbox-L em {
+    background-position: -2px 0;
+}
+.ui-checkbox-L .selected {
+    background-position: -2px -31px;
+}
+.paybox .p-key .p-k-check .p-k-icon {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -2px;
+    width: 26px;
+    height: 26px;
+}
+.paybox .p-key .p-k-check .p-k-icon img {
+    width: 26px;
+    height: 26px;
+}
+.paybox-baitiao .p-key .p-k-check .p-k-icon {
+    margin-top: -4px;
+}
+.paybox-baitiao .p-key .p-k-check .p-k-icon img {
+    width: 24px;
+    height: 30px;
+}
+.paybox .p-key .p-k-check strong {
+    color: #333;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 16px;
+}
+.ml5 {
+    margin-left: 5px;
+}
+.ui-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/payment/elements.png?20150430) -9999px -9999px no-repeat;
+    vertical-align: middle;
+}
+.ui-icon-info {
+    background-position: -1px -62px;
+}
+.paybox .p-value {
+    margin-left: 225px;
+    margin-right: 5px;
+}
+.paybox .p-value .p-v-line {
+    line-height: 32px;
+}
+.paybox .p-div {
+    margin: 0 8px;
+    color: #ddd;
+}
+.paybox.paybox-selected .bb-coupo {
+    cursor: pointer;
+}
+.xjk-balance .bb-coupo .bb-coupo-icon {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    background-color: #84a5da;
+    color: #fff;
+    padding: 0 5px;
+    font-style: normal;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+.paybox.paybox-selected .bb-coupo .bb-coupo-icon {
+    background-color: #ff5d5b;
+}
+.xjk-balance .bb-coupo .bb-coupo-text {
+    color: #84a5da;
+}
+.paybox.paybox-selected .bb-coupo .bb-coupo-text {
+    color: #ff5d5b;
+}
+.xjk-balance .bb-coupo .bb-coupo-text b {
+    font-weight: 400;
+}
+.font-gray {
+    color: #999;
+    font-size: 12px;
+}
+.paybox .p-div {
+    margin: 0 8px;
+    color: #ddd;
+}
+.paybox .p-amount {
+    display: none;
+    position: absolute;
+    width: 140px;
+    right: 18px;
+    top: 14px;
+    text-align: right;
+    line-height: 26px;
+}
+.paybox.paybox-selected .p-amount {
+    display: block;
+}
+.paybox-baitiao .p-amount {
+    width: 180px;
+}
+.paybox .p-amount em {
+    vertical-align: bottom;
+}
+.paybox .p-amount strong {
+    font-size: 18px;
+    vertical-align: bottom;
+    color: #ff5d5b;
+    margin: 0 3px;
+}
+.paybox.paybox-selected {
+    margin-top: -2px;
+    _margin-top: -1px;
+    border: 2px solid #b0c2e1;
+    padding: 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.paybox.paybox-selected.paybox-couponselect {
+    min-height: 70px;
+}
+
+/*添加新卡*/
+.paybox-newcard {
+    border-bottom: 0 none;
+    padding-top: 10px;
+    padding-left: 76px;
+}
+.paybox-newcard .pn-new {
+    height: 34px;
+    line-height: 34px;
+    width: 138px;
+    border: 1px solid #e0e0e0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.pay-verify {
+    padding-left: 76px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+.pay-verify .pv-line {
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.pay-verify .pv-line.pv-line-shortPwd .pl-s-title {
+    color: #999;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.ui-shortPwd {
+    display: inline-block;
+    width: 235px;
+    height: 28px;
+    padding: 5px 0;
+    line-height: 20px;
+    font-size: 18px;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px #ededed inset;
+    vertical-align: middle;
+    overflow: hidden;
+    -moz-transition: border-color .1s;
+    -o-transition: border-color .1s;
+    -webkit-transition: border-color .1s;
+    transition: border-color .1s;
+    /*background: url(i/shortPwd-bg.png) center center no-repeat #fff;*/
+}
+.ui-button {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 28px;
+    color: #fff;
+    border: 1px solid #f96765;
+    background-color: #ff7573;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top,#ff7573,#f96765);
+    background-image: -webkit-linear-gradient(top,#ff7573,#f96765);
+    background-image: -o-linear-gradient(top,#ff7573,#f96765);
+    background-image: linear-gradient(to bottom,#ff7573,#f96765);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7573', endColorstr='#f96765', GradientType=0);
+    border-radius: 2px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 0 0 #fe8c8a inset;
+}
+.ui-button-XL {
+    height: 50px;
+    line-height: 48px;
+    padding: 0;
+    font-size: 18px;
+    width: 220px;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+a.ui-button-XL {
+    height: 48px;
+    line-height: 48px;
+}
+.font-red {
+    color: #ff5d5b;
+}
+.mt25 {
+    margin-top: 25px;
+}
+
+/*其他支付*/
+.pay-load.pay-load-change {
+    position: static;
+    min-height: 110px;
+}
+.payment-change .o-icon-wrap {
+    height: 35px;
+    line-height: 15px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.payment-change .o-icon-wrap .o-icon {
+    width: 114px;
+    height: 35px;
+    position: absolute;
+    left: -35px;
+    top: 0;
+    background: url(../images/payment/o-icon.png) no-repeat;
+}
+.payment-change .o-icon-wrap .o-p-tips {
+    line-height: 35px;
+    color: #999;
+    padding-left: 95px;
+    filter: alpha(Opacity=80);
+    opacity: .8;
+}
+.payment-change .pc-wrap {
+    display: block;
+    height: 60px;
+    line-height: 56px;
+    padding: 0 20px;
+    -moz-transition: all .1s;
+    -o-transition: all .1s;
+    -webkit-transition: all .1s;
+    transition: all .1s;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.payment-change .pc-wrap .pc-w-left {
+    float: left;
+    color: #ddd;
+    font-size: 14px;
+}
+.payment-change .pc-wrap .pc-w-left a {
+    float: left;
+    color: #5e5e5e;
+    font-size: 16px;
+}
+.payment-change .pc-wrap .pc-w-left span {
+    float: left;
+    padding: 0 13px;
+    font-size: 16px;
+}
+.p-footer {
+    background-color: #fff;
+}
+.p-footer .pf-wrap {
+    padding: 18px 0;
+    border-top: 1px solid #ddd;
+}
+.p-footer .pf-line {
+    line-height: 20px;
+    text-align: center;
+}
+.p-footer .pf-line .pf-l-copyright {
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

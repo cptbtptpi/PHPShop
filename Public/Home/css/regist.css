@@ -1,0 +1,260 @@
+body {
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+}
+.regist .w {
+    width: 1210px;
+}
+/*头部开始*/
+.header {
+    height: 110px;
+    background: url("../images/regist/headbg.jpg") repeat-x left bottom;
+}
+.header .logo, .i-company, .i-def, .i-error, .i-error1, .i-global, .i-suc {
+    background: url("../images/regist/icon.png") no-repeat;
+}
+.header .logo {
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+}
+.header .logo-title {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    padding-left: 30px;
+    margin-top: 34px;
+}
+.header .have-account {
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.header .have-account a {
+    color: #333;
+}
+.main {
+    margin: 50px auto 60px;
+    width: 830px;
+}
+.reg-other {
+    float: left;
+    margin-left: 104px;
+    height: 605px;
+    padding-left: 90px;
+    border-left: solid 1px #e6e6e6;
+}
+.reg-form {
+    width: 400px;
+}
+.reg-other .company-reg {
+    width: 160px;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 30px;
+}
+.company-reg-lk {
+    display: block;
+    width: 160px;
+    height: 30px;
+}
+.i-company {
+    background-position: 0 -50px;
+}
+.i-company {
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.reg-other .inter-cust {
+    width: 160px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.inter-cust-lk {
+    display: block;
+    width: 170px;
+    height: 40px;
+}
+.i-global {
+    background-position: -50px -50px;
+}
+.i-global {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    margin-right: 15px;
+    float: left;
+    margin-top: 7px;
+}
+.inter-cust-name {
+    display: inline-block;
+}
+.form-item {
+    position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 52px;
+    z-index: 0;
+}
+.form-label {
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+.form-txt {
+    position: absolute;
+    z-index: 2;
+    line-height: 46px;
+    margin-left: 20px;
+    margin-top: 1px;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    display: inline;
+}
+.form-input {
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.i-status {
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    right: 20px;
+}
+.input-tip {
+    color: #c5c5c5;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.input-tip .error {
+    color: #e22;
+}
+.i-error {
+    background-position: -17px -100px;
+}
+.i-def {
+
+}
+.form-item .field {
+    border: 0 none;
+    font-size: 14px;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.form-item label {
+    float: left;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+.form-item-phone .select-country {
+    width: 104px;
+    padding: 0 0 0 20px;
+    height: 52px;
+    border: none;
+    color: #666;
+    border-right: solid 1px #ddd;
+}
+.form-item-phone input {
+    padding-left: 7px!important;
+}
+.form-item-phone .arrow {
+    background: url("../images/regist/icon.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-position: -2px -151px;
+}
+.form-item .form-authcode, .form-item .phonecode {
+    width: 150px;
+}
+.form-item .img-code {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
+}
+.btn-phonecode {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 110px;
+    height: 46px;
+    border: none;
+    background: #f2f2f2;
+    color: #333;
+    padding: 0;
+}
+.form-agreen {
+    color: #333;
+    font-size: 12px;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+.form-agreen input {
+    width: 18px;
+    height: 18px;
+    border: solid 1px #cfd1d3;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+}
+.form-agreen a {
+    color: #38f;
+}
+.btn-register {
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #e22;
+    border: 0;
+    font-size: 16px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*头部结束*/
+
+/*右边悬浮调查问卷开始*/
+.feedback {
+    display: block;
+    width: 33px;
+    height: 135px;
+    background: url("../images/regist/icon.png") no-repeat;
+    background-position: -367px 0;
+}
+.feedback:hover {
+    background-position: -334px 0;;
+}
+/*右边悬浮调查问卷结束*/

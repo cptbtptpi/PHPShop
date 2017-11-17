@@ -1,0 +1,49 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">类型属性管理</h2>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>属性编号</th>
+                        <th>属性名称</th>
+                        <th>属性值</th>
+                        <th>属性类型</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <foreach name="list" item="v">
+                        <tr>
+                            <td>{$v['ta_id']}</td>
+                            <td>{$v['attr_name']}</td>
+                            <td style="width: 50%;">{$v['attr_value']}</td>
+                            <td>
+                                <?php if($v['attr_type'] == 2) {echo '属性';} else {echo '规格';} ?>
+                            </td>
+                            <td>
+                                <div class="btn-group">
+                                    <a href="{:u('admin/typeAttr/edit',['ta_id'=>$v['ta_id']])}" class="btn btn-info">编辑</a>
+                                    <a href="{:u('admin/typeAttr/del',['ta_id'=>$v['ta_id']])}" class="btn btn-danger">删除</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="col-sm-12 text-right text-center-xs">
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+        {$page}
+    </ul>
+</div>
+<div class="btn-group">
+    <a href="{:u('admin/typeAttr/add',['jn_type_t_id'=>$list[0]['jn_type_t_id']])}" class="btn btn-primary">添加</a>
+</div>

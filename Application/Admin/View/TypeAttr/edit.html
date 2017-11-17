@@ -1,0 +1,35 @@
+<layout name="../../../Public/master"/>
+<div class="m-b-md">
+    <h2 class="m-b-none">类型属性操作</h2>
+</div>
+<form class="form-horizontal" id="form" action="" method="post">
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">属性名称</label>
+                <div class="col-sm-9">
+                    <input type="text" name="attr_name" value="{$oldData['attr_name']}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">属性值</label>
+                <div class="col-sm-9">
+                    <textarea name="attr_value" id="" cols="30" rows="5">{$oldData['attr_value']}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-2 control-label">属性类型</label>
+                <div class="col-sm-9">
+                    <select name="attr_type" id="">
+                        <option value="2" <?php if($oldData['attr_type'] == 2) echo 'selected'; ?>>属性</option>
+                        <option value="1" <?php if($oldData['attr_type'] == 1) echo 'selected'; ?>>规格</option>
+                    </select>
+                </div>
+            </div>
+            <input type="hidden" name="jn_type_t_id" value="{$oldData['jn_type_t_id']}">
+        </div>
+    </div>
+    <button class="btn btn-primary" type="submit">确定</button>
+</form>
+</div>
